@@ -10,8 +10,8 @@ html {
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: #05070d;
-    color: #e8edf7;
+    background: #030806;
+    color: #e8ffef;
     line-height: 1.6;
     overflow-x: hidden;
 }
@@ -32,7 +32,7 @@ body {
     justify-content: space-between;
 
     background: rgba(5, 7, 13, 0.95);
-    border-bottom: 1px solid #15364a;
+    border-bottom: 1px solid #123d25;
 
     z-index: 1000;
 }
@@ -43,19 +43,19 @@ body {
 }
 
 .navbar nav a {
-    color: #b5c0d0;
+    color: #a8c7b0;
     text-decoration: none;
     font-size: 14px;
     transition: 0.3s;
 }
 
 .navbar nav a:hover {
-    color: #00e5ff;
+    color: #00ff66;
 }
 
 .nav-btn {
-    background: #00e5ff;
-    color: #001014;
+    background: #00ff66;
+    color: #001a08;
     padding: 10px 18px;
     border-radius: 7px;
     text-decoration: none;
@@ -90,7 +90,7 @@ body {
 }
 
 .welcome {
-    color: #00e5ff;
+    color: #00ff66;
     text-transform: uppercase;
     letter-spacing: 3px;
     font-size: 13px;
