@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Chevuri Gangadhar Rao | Cyber Security Portfolio</title>
+    <meta name="description" content="Portfolio of a final-year B.Tech student">
+    <meta name="author" content="Your Name">
 
-    <meta name="description"
-          content="Portfolio of Chevuri Gangadhar Rao, a Cyber Security student interested in Software Development and Cyber Security.">
+    <title>| B.Tech Student Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
 </head>
@@ -17,801 +21,651 @@
 
     <!-- ================= NAVBAR ================= -->
 
-    <header class="navbar">
+    <header class="header">
+        <nav class="navbar container">
 
-        <nav>
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
-            <a href="#education">Education</a>
-            <a href="#certifications">Certifications</a>
-            <a href="#contact">Contact</a>
+            <a href="#home" class="logo">
+                <span>&lt;</span> YourName <span>/&gt;</span>
+            </a>
+
+            <button class="menu-btn" id="menuBtn" aria-label="Open menu">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
         </nav>
-
-        <a href="#contact" class="nav-btn">
-            Let's Talk
-        </a>
-
     </header>
 
 
-    <!-- ================= HOME ================= -->
+    <!-- ================= HERO ================= -->
 
-    <section id="home" class="hero">
+    <main>
 
-        <div class="hero-content">
+        <section class="hero" id="home">
 
-            <p class="welcome">
-                Welcome to my portfolio
-            </p>
+            <div class="hero-content container">
 
-            <h1>
-                Hi, I'm <span>Chevuri Gangadhar Rao</span>
-            </h1>
+                <div class="hero-text">
 
-            <!-- FIXED TITLE -->
-            <h2 id="career-title">
-                Cyber Security Enthusiast
-            </h2>
+                    <p class="hello">HELLO, I'M</p>
 
-            <p class="hero-description">
-                Passionate about Cyber Security, Software Development
-                and emerging technologies. I enjoy learning new technologies,
-                building practical projects and solving real-world problems.
-            </p>
+                    <h1>
+                        Your <span>Name</span>
+                    </h1>
 
+                    <h2>
+                        Final-Year B.Tech Student & Aspiring Software Developer
+                    </h2>
 
-            <!-- HERO BUTTONS -->
+                    <p class="hero-description">
+                        I am a passionate B.Tech student interested in software
+                        development, problem solving and building real-world
+                        applications using modern technologies.
+                    </p>
 
-            <div class="hero-buttons">
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn primary-btn">
+                            View My Projects
+                        </a>
 
-                <a href="#projects" class="primary-btn">
-                    View Projects
-                </a>
+                        <a href="resume.pdf" class="btn secondary-btn" download>
+                            Download Resume
+                        </a>
+                    </div>
 
-                <a href="#contact" class="secondary-btn">
-                    Contact Me
-                </a>
+                    <div class="social-links">
 
-                <a href="resume.pdf" download class="secondary-btn">
-                    Download Resume
-                </a>
+                        <!-- Replace these URLs with your profiles -->
 
-            </div>
+                        <a href="https://github.com/" target="_blank">
+                            GitHub
+                        </a>
 
+                        <a href="https://www.linkedin.com/" target="_blank">
+                            LinkedIn
+                        </a>
 
-            <!-- SOCIAL LINKS -->
+                        <a href="mailto:your.email@gmail.com">
+                            Email
+                        </a>
 
-            <div class="social-links">
+                    </div>
 
-                <a href="https://www.linkedin.com/in/chevuri-gangadhar-rao-58a858272/"
-                   target="_blank"
-                   rel="noopener noreferrer">
-                    LinkedIn
-                </a>
-
-                <a href="mailto:gangadharch739@gmail.com">
-                    Email
-                </a>
-
-                <!-- FIXED GITHUB LINK -->
-                <a href="https://github.com/gangadharchevuri/cancer-care-buddy"
-                   target="_blank"
-                   rel="noopener noreferrer">
-                    GitHub
-                </a>
-
-            </div>
-
-        </div>
-
-
-        <!-- PROFILE PHOTO -->
-
-        <div class="hero-visual">
-
-            <div class="profile-circle">
-
-                <img src="./profile.jpg"
-                     alt="Chevuri Gangadhar Rao">
-
-                <div class="orbit orbit-one"></div>
-                <div class="orbit orbit-two"></div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- ================= ABOUT ================= -->
-
-    <section id="about" class="section">
-
-        <div class="section-title">
-
-            <p>Who I Am</p>
-
-            <h2>
-                About <span>Me</span>
-            </h2>
-
-        </div>
-
-
-        <div class="about-container">
-
-            <div class="about-card">
-
-                <div class="about-icon">
-                    🛡️
                 </div>
 
-                <h3>
-                    Cyber Security Enthusiast
-                </h3>
 
-                <p>
-                    I am a B.Tech student specializing in CSE Cyber Security.
-                    I am passionate about understanding cybersecurity,
-                    software development and modern technologies.
-                </p>
+                <div class="hero-card">
 
-            </div>
-
-
-            <div class="about-text">
-
-                <h3>
-                    Building skills. Creating projects. Growing every day.
-                </h3>
-
-                <p>
-                    I believe that continuous learning and practical experience
-                    are important for building a successful career in technology.
-                </p>
-
-                <p>
-                    My current interests include Cyber Security, Python,
-                    Database Management and Software Development.
-                </p>
-
-
-                <div class="about-details">
-
-                    <div>
-                        <strong>Location</strong>
-                        <span>Guntur, India</span>
+                    <div class="profile-circle">
+                        YN
                     </div>
 
-                    <div>
-                        <strong>Education</strong>
-                        <span>B.Tech – CSE Cyber Security</span>
-                    </div>
+                    <h3>Your Name</h3>
 
-                    <div>
-                        <strong>Graduation</strong>
-                        <span>2027</span>
-                    </div>
+                    <p>B.Tech CSE | Final Year</p>
 
-                    <div>
-                        <strong>CGPA</strong>
-                        <span>72.21</span>
+                    <div class="availability">
+                        <span></span>
+                        Open to opportunities
                     </div>
 
                 </div>
 
             </div>
 
-        </div>
-
-    </section>
+        </section>
 
 
-    <!-- ================= SKILLS ================= -->
+        <!-- ================= ABOUT ================= -->
 
-    <section id="skills" class="section skills-section">
+        <section class="section" id="about">
 
-        <div class="section-title">
+            <div class="container">
 
-            <p>My Expertise</p>
-
-            <h2>
-                Technical <span>Skills</span>
-            </h2>
-
-        </div>
-
-
-        <div class="skills-grid">
-
-            <div class="skill-card">
-
-                <div class="skill-icon">
-                    🐍
+                <div class="section-heading">
+                    <p>GET TO KNOW ME</p>
+                    <h2>About Me</h2>
                 </div>
 
-                <h3>
-                    Python
-                </h3>
+                <div class="about-grid">
 
-                <p>
-                    Python programming and problem solving.
-                </p>
+                    <div class="about-text">
 
-                <div class="skill-bar">
-                    <div class="skill-progress python"></div>
-                </div>
+                        <p>
+                            I am a final-year Bachelor of Technology student
+                            specializing in Computer Science and Engineering.
+                            I enjoy developing software applications and
+                            solving challenging programming problems.
+                        </p>
 
-            </div>
+                        <p>
+                            Throughout my academic journey, I have worked on
+                            various projects that helped me gain practical
+                            experience in programming, web development,
+                            databases and software engineering.
+                        </p>
 
+                        <p>
+                            I am currently looking for opportunities where I
+                            can apply my technical skills, learn from experienced
+                            professionals and contribute to meaningful projects.
+                        </p>
 
-            <div class="skill-card">
-
-                <div class="skill-icon">
-                    🗄️
-                </div>
-
-                <h3>
-                    DBMS
-                </h3>
-
-                <p>
-                    Database concepts and management systems.
-                </p>
-
-                <div class="skill-bar">
-                    <div class="skill-progress dbms"></div>
-                </div>
-
-            </div>
+                    </div>
 
 
-            <div class="skill-card">
+                    <div class="about-stats">
 
-                <div class="skill-icon">
-                    🛡️
-                </div>
+                        <div class="stat">
+                            <h3>4+</h3>
+                            <p>Projects</p>
+                        </div>
 
-                <h3>
-                    Cyber Security
-                </h3>
+                        <div class="stat">
+                            <h3>8.5</h3>
+                            <p>CGPA</p>
+                        </div>
 
-                <p>
-                    Cybersecurity fundamentals and security concepts.
-                </p>
+                        <div class="stat">
+                            <h3>3+</h3>
+                            <p>Certifications</p>
+                        </div>
 
-                <div class="skill-bar">
-                    <div class="skill-progress security"></div>
-                </div>
+                        <div class="stat">
+                            <h3>2027</h3>
+                            <p>Graduation</p>
+                        </div>
 
-            </div>
-
-
-            <div class="skill-card learning-card">
-
-                <div class="skill-icon">
-                    🚀
-                </div>
-
-                <h3>
-                    Currently Learning
-                </h3>
-
-                <p>
-                    Ethical Hacking • Networking • Advanced Python
-                </p>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- ================= PROJECTS ================= -->
-
-    <section id="projects" class="section">
-
-        <div class="section-title">
-
-            <p>What I've Built</p>
-
-            <h2>
-                Featured <span>Project</span>
-            </h2>
-
-        </div>
-
-
-        <div class="project-card">
-
-            <div class="project-number">
-                01
-            </div>
-
-
-            <div class="project-content">
-
-                <p class="project-category">
-                    AI • Healthcare • Monitoring
-                </p>
-
-                <h3>
-                    Cancer Monitoring & AI Prediction System
-                </h3>
-
-                <p>
-                    An AI-based system designed to support cancer monitoring
-                    and recovery tracking by analyzing patient-related
-                    information and providing prediction-based insights.
-                </p>
-
-
-                <div class="project-tags">
-
-                    <span>AI</span>
-                    <span>Python</span>
-                    <span>Database</span>
-                    <span>Healthcare</span>
-
-                </div>
-
-
-                <div class="project-buttons">
-
-                    <a href="https://cancer-care-buddy.lovable.app/"
-                       target="_blank"
-                       rel="noopener noreferrer"
-                       class="primary-btn">
-                        View Project
-                    </a>
-
-                    <a href="https://github.com/gangadharchevuri/cancer-care-buddy"
-                       target="_blank"
-                       rel="noopener noreferrer"
-                       class="secondary-btn">
-                        GitHub
-                    </a>
+                    </div>
 
                 </div>
 
             </div>
 
-        </div>
-
-    </section>
+        </section>
 
 
-    <!-- ================= EDUCATION ================= -->
+        <!-- ================= SKILLS ================= -->
 
-    <section id="education" class="section">
+        <section class="section dark-section" id="skills">
 
-        <div class="section-title">
+            <div class="container">
 
-            <p>My Academic Journey</p>
-
-            <h2>
-                My <span>Education</span>
-            </h2>
-
-        </div>
+                <div class="section-heading">
+                    <p>WHAT I KNOW</p>
+                    <h2>Technical Skills</h2>
+                </div>
 
 
-        <div class="timeline">
+                <div class="skills-grid">
 
-            <div class="timeline-item">
+                    <div class="skill-card">
+                        <div class="skill-icon">01</div>
+                        <h3>Programming</h3>
 
-                <div class="timeline-dot"></div>
+                        <div class="tags">
+                            <span>Java</span>
+                            <span>Python</span>
+                            <span>C++</span>
+                            <span>C</span>
+                        </div>
+                    </div>
 
-                <div class="timeline-content">
 
-                    <span>
-                        2023 – 2027
-                    </span>
+                    <div class="skill-card">
+                        <div class="skill-icon">02</div>
+                        <h3>Web Development</h3>
 
-                    <h3>
-                        B.Tech – CSE (Cyber Security)
-                    </h3>
+                        <div class="tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>React</span>
+                        </div>
+                    </div>
 
-                    <h4>
-                        Prakasam Engineering College
-                    </h4>
 
-                    <p>
-                        Currently pursuing B.Tech with specialization
-                        in Cyber Security.
-                    </p>
+                    <div class="skill-card">
+                        <div class="skill-icon">03</div>
+                        <h3>Database</h3>
 
-                    <strong>
-                        CGPA: 72.21
-                    </strong>
+                        <div class="tags">
+                            <span>MySQL</span>
+                            <span>MongoDB</span>
+                            <span>SQL</span>
+                        </div>
+                    </div>
+
+
+                    <div class="skill-card">
+                        <div class="skill-icon">04</div>
+                        <h3>Tools</h3>
+
+                        <div class="tags">
+                            <span>Git</span>
+                            <span>GitHub</span>
+                            <span>VS Code</span>
+                            <span>Postman</span>
+                        </div>
+                    </div>
 
                 </div>
 
             </div>
 
+        </section>
 
-            <div class="timeline-item">
 
-                <div class="timeline-dot"></div>
+        <!-- ================= PROJECTS ================= -->
 
-                <div class="timeline-content">
+        <section class="section" id="projects">
 
-                    <span>
-                        Intermediate
-                    </span>
+            <div class="container">
 
-                    <h3>
-                        Intermediate Education
-                    </h3>
+                <div class="section-heading">
+                    <p>MY WORK</p>
+                    <h2>Featured Projects</h2>
+                </div>
 
-                    <p>
-                        Percentage: 50%
-                    </p>
+
+                <div class="projects-grid">
+
+
+                    <!-- PROJECT 1 -->
+
+                    <article class="project-card">
+
+                        <div class="project-number">
+                            01
+                        </div>
+
+                        <div class="project-content">
+
+                            <h3>Student Placement Portal</h3>
+
+                            <p>
+                                A web application that helps students track
+                                placement opportunities, company information
+                                and job applications.
+                            </p>
+
+                            <div class="project-tech">
+                                <span>React</span>
+                                <span>Node.js</span>
+                                <span>MongoDB</span>
+                            </div>
+
+                            <div class="project-links">
+                                <a href="https://github.com/" target="_blank">
+                                    GitHub →
+                                </a>
+
+                                <a href="#" target="_blank">
+                                    Live Demo →
+                                </a>
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PROJECT 2 -->
+
+                    <article class="project-card">
+
+                        <div class="project-number">
+                            02
+                        </div>
+
+                        <div class="project-content">
+
+                            <h3>Online Quiz Application</h3>
+
+                            <p>
+                                An interactive quiz platform with multiple
+                                categories, score calculation and a responsive
+                                user interface.
+                            </p>
+
+                            <div class="project-tech">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+
+                            <div class="project-links">
+                                <a href="https://github.com/" target="_blank">
+                                    GitHub →
+                                </a>
+
+                                <a href="#" target="_blank">
+                                    Live Demo →
+                                </a>
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PROJECT 3 -->
+
+                    <article class="project-card">
+
+                        <div class="project-number">
+                            03
+                        </div>
+
+                        <div class="project-content">
+
+                            <h3>Expense Tracker</h3>
+
+                            <p>
+                                A personal finance application that allows
+                                users to record expenses, categorize spending
+                                and monitor their monthly budget.
+                            </p>
+
+                            <div class="project-tech">
+                                <span>JavaScript</span>
+                                <span>HTML</span>
+                                <span>CSS</span>
+                            </div>
+
+                            <div class="project-links">
+                                <a href="https://github.com/" target="_blank">
+                                    GitHub →
+                                </a>
+
+                                <a href="#" target="_blank">
+                                    Live Demo →
+                                </a>
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PROJECT 4 -->
+
+                    <article class="project-card">
+
+                        <div class="project-number">
+                            04
+                        </div>
+
+                        <div class="project-content">
+
+                            <h3>AI / Machine Learning Project</h3>
+
+                            <p>
+                                A machine learning project that analyzes data
+                                and predicts outcomes using a trained model.
+                            </p>
+
+                            <div class="project-tech">
+                                <span>Python</span>
+                                <span>Pandas</span>
+                                <span>Scikit-learn</span>
+                            </div>
+
+                            <div class="project-links">
+                                <a href="https://github.com/" target="_blank">
+                                    GitHub →
+                                </a>
+
+                                <a href="#" target="_blank">
+                                    Details →
+                                </a>
+                            </div>
+
+                        </div>
+
+                    </article>
 
                 </div>
 
             </div>
 
+        </section>
 
-            <div class="timeline-item">
 
-                <div class="timeline-dot"></div>
+        <!-- ================= EDUCATION ================= -->
 
-                <div class="timeline-content">
+        <section class="section dark-section" id="education">
 
-                    <span>
-                        SSC
-                    </span>
+            <div class="container">
 
-                    <h3>
-                        Secondary School Education
-                    </h3>
+                <div class="section-heading">
+                    <p>MY ACADEMIC JOURNEY</p>
+                    <h2>Education</h2>
+                </div>
 
-                    <p>
-                        CGPA: 9.5
-                    </p>
+
+                <div class="timeline">
+
+                    <div class="timeline-item">
+
+                        <div class="timeline-dot"></div>
+
+                        <div class="timeline-content">
+
+                            <span>2023 — 2027</span>
+
+                            <h3>Bachelor of Technology</h3>
+
+                            <h4>Computer Science & Engineering</h4>
+
+                            <p>
+                                XYZ University, India
+                            </p>
+
+                            <p>
+                                CGPA: <strong>8.5 / 10</strong>
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="timeline-item">
+
+                        <div class="timeline-dot"></div>
+
+                        <div class="timeline-content">
+
+                            <span>2021 — 2023</span>
+
+                            <h3>Intermediate / Higher Secondary</h3>
+
+                            <h4>Science / MPC</h4>
+
+                            <p>
+                                ABC Junior College
+                            </p>
+
+                            <p>
+                                Percentage: <strong>90%</strong>
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="timeline-item">
+
+                        <div class="timeline-dot"></div>
+
+                        <div class="timeline-content">
+
+                            <span>2021</span>
+
+                            <h3>Secondary School</h3>
+
+                            <h4>ABC High School</h4>
+
+                            <p>
+                                Percentage: <strong>95%</strong>
+                            </p>
+
+                        </div>
+
+                    </div>
 
                 </div>
 
             </div>
 
-        </div>
-
-    </section>
+        </section>
 
 
-    <!-- ================= CERTIFICATIONS ================= -->
+        <!-- ================= CERTIFICATIONS ================= -->
 
-    <section id="certifications" class="section">
+        <section class="section">
 
-        <div class="section-title">
+            <div class="container">
 
-            <p>Achievements</p>
-
-            <h2>
-                My <span>Certifications</span>
-            </h2>
-
-        </div>
-
-
-        <div class="certifications-grid">
-
-            <div class="certificate-card">
-
-                <div class="certificate-icon">
-                    📜
-                </div>
-
-                <h3>
-                    ExcelR
-                </h3>
-
-                <p>
-                    Professional certification / training.
-                </p>
-
-                <a href="excelr.pdf"
-                   target="_blank"
-                   class="certificate-link">
-                    View Certificate →
-                </a>
-
-            </div>
-
-
-            <div class="certificate-card">
-
-                <div class="certificate-icon">
-                    🌐
-                </div>
-
-                <h3>
-                    ASAR IT TECHNOLOGY PVT.LTD.
-                </h3>
-
-                <p>
-                    ASAR IT TECH PVT.LTD
-                </p>
-
-                <a href="asar.pdf"
-                   target="_blank"
-                   class="certificate-link">
-                    View Certificate →
-                </a>
-
-            </div>
-
-
-            <div class="certificate-card">
-
-                <div class="certificate-icon">
-                    🌐
-                </div>
-
-                <h3>
-                    IoT
-                </h3>
-
-                <p>
-                    Internet of Things certification.
-                </p>
-
-                <a href="iot.pdf"
-                   target="_blank"
-                   class="certificate-link">
-                    View Certificate →
-                </a>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- ================= CAREER ================= -->
-
-    <section class="career-section">
-
-        <div class="career-content">
-
-            <p>
-                My Vision
-            </p>
-
-            <h2>
-                My <span>Career Goals</span>
-            </h2>
-
-
-            <div class="career-goals">
-
-                <div>
-
-                    <h3>
-                        Short-Term Goal
-                    </h3>
-
-                    <p>
-                        To get a job in a reputed company and start
-                        my professional career in the technology industry.
-                    </p>
-
+                <div class="section-heading">
+                    <p>LEARNING</p>
+                    <h2>Certifications & Achievements</h2>
                 </div>
 
 
-                <div>
+                <div class="certifications">
 
-                    <h3>
-                        Long-Term Goal
-                    </h3>
+                    <div class="certificate">
+                        <span class="certificate-icon">✓</span>
 
-                    <p>
-                        To become a skilled professional in Software
-                        Development and Cyber Security.
-                    </p>
+                        <div>
+                            <h3>Java Programming</h3>
+                            <p>Certification Provider</p>
+                        </div>
+                    </div>
+
+
+                    <div class="certificate">
+                        <span class="certificate-icon">✓</span>
+
+                        <div>
+                            <h3>Web Development</h3>
+                            <p>Certification Provider</p>
+                        </div>
+                    </div>
+
+
+                    <div class="certificate">
+                        <span class="certificate-icon">✓</span>
+
+                        <div>
+                            <h3>Python / Machine Learning</h3>
+                            <p>Certification Provider</p>
+                        </div>
+                    </div>
+
+
+                    <div class="certificate">
+                        <span class="certificate-icon">★</span>
+
+                        <div>
+                            <h3>Hackathon Participant</h3>
+                            <p>College / National Hackathon</p>
+                        </div>
+                    </div>
 
                 </div>
 
             </div>
 
-        </div>
-
-    </section>
+        </section>
 
 
-    <!-- ================= CONTACT ================= -->
+        <!-- ================= CONTACT ================= -->
 
-    <section id="contact" class="section">
+        <section class="section contact-section" id="contact">
 
-        <div class="section-title">
+            <div class="container">
 
-            <p>
-                Let's Connect
-            </p>
-
-            <h2>
-                Contact <span>Me</span>
-            </h2>
-
-        </div>
-
-
-        <div class="contact-container">
-
-            <div class="contact-info">
-
-                <h3>
-                    Let's build something together.
-                </h3>
-
-                <p>
-                    I'm open to opportunities, internships,
-                    collaborations and learning experiences.
-                </p>
-
-
-                <div class="contact-item">
-
-                    <strong>
-                        Email
-                    </strong>
-
-                    <a href="mailto:gangadharch739@gmail.com">
-                        gangadharch739@gmail.com
-                    </a>
-
+                <div class="section-heading">
+                    <p>GET IN TOUCH</p>
+                    <h2>Let's Connect</h2>
                 </div>
 
 
-                <div class="contact-item">
+                <div class="contact-box">
 
-                    <strong>
-                        Phone
-                    </strong>
+                    <div class="contact-text">
 
-                    <a href="tel:+918919503085">
-                        +91 8919503085
-                    </a>
+                        <h3>Looking for an opportunity?</h3>
 
-                </div>
+                        <p>
+                            I am currently looking for internships and
+                            full-time opportunities where I can learn,
+                            contribute and grow as a software professional.
+                        </p>
+
+                    </div>
 
 
-                <div class="contact-item">
+                    <div class="contact-details">
 
-                    <strong>
-                        Location
-                    </strong>
+                        <a href="mailto:your.email@gmail.com">
+                            <span>Email</span>
+                            your.email@gmail.com
+                        </a>
 
-                    <span>
-                        Guntur, India
-                    </span>
+                        <a href="https://www.linkedin.com/" target="_blank">
+                            <span>LinkedIn</span>
+                            linkedin.com/in/yourname
+                        </a>
+
+                        <a href="https://github.com/" target="_blank">
+                            <span>GitHub</span>
+                            github.com/yourusername
+                        </a>
+
+                    </div>
 
                 </div>
 
             </div>
 
+        </section>
 
-            <form
-                class="contact-form"
-                id="contactForm"
-                action="https://formspree.io/f/mbgrbwql"
-                method="POST">
-
-                <input
-                    type="hidden"
-                    name="subject"
-                    value="New Contact Message - Portfolio">
-
-                <input
-                    type="text"
-                    name="name"
-                    placeholder="Your Name"
-                    required>
-
-                <input
-                    type="email"
-                    name="email"
-                    placeholder="Your Email"
-                    required>
-
-                <textarea
-                    name="message"
-                    rows="6"
-                    placeholder="Your Message"
-                    required></textarea>
-
-                <button
-                    type="submit"
-                    class="primary-btn">
-                    Send Message
-                </button>
-
-            </form>
-
-        </div>
-
-    </section>
+    </main>
 
 
     <!-- ================= FOOTER ================= -->
 
-    <footer>
+    <footer class="footer">
 
-        <div class="footer-logo">
-            &lt;Gangadhar/&gt;
-        </div>
+        <div class="container footer-content">
 
-        <p>
-            Cyber Security Enthusiast • Software Developer
-        </p>
+            <p>
+                © <span id="year"></span> Your Name. All rights reserved.
+            </p>
 
-
-        <div class="footer-links">
-
-            <a href="https://www.linkedin.com/in/chevuri-gangadhar-rao-58a858272/"
-               target="_blank"
-               rel="noopener noreferrer">
-                LinkedIn
-            </a>
-
-            <!-- FIXED GITHUB LINK -->
-            <a href="https://github.com/gangadharchevuri/cancer-care-buddy"
-               target="_blank"
-               rel="noopener noreferrer">
-                GitHub
-            </a>
-
-            <a href="mailto:gangadharch739@gmail.com">
-                Email
-            </a>
+            <p>
+                Built with HTML, CSS & JavaScript.
+            </p>
 
         </div>
-
-
-        <p class="copyright">
-            © 2027 Chevuri Gangadhar Rao. All Rights Reserved.
-        </p>
 
     </footer>
 
 
-    <!-- ================= JAVASCRIPT ================= -->
-
-    
-
-    <!-- KEEP CAREER TITLE FIXED -->
-    <script>
-        function keepCyberSecurityTitle() {
-            const title = document.getElementById("career-title");
-
-            if (title) {
-                title.textContent = "Cyber Security Enthusiast";
-            }
-        }
-
-        keepCyberSecurityTitle();
-
-        const titleObserver = new MutationObserver(() => {
-            keepCyberSecurityTitle();
-        });
-
-        const titleElement = document.getElementById("career-title");
-
-        if (titleElement) {
-            titleObserver.observe(titleElement, {
-                childList: true,
-                characterData: true,
-                subtree: true
-            });
-        }
-    </script>
+    <script src="script.js"></script>
 
 </body>
-
 </html>

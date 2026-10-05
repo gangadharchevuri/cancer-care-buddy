@@ -126,7 +126,6 @@ document.addEventListener("DOMContentLoaded", () => {
     if (titleElement) {
 
         const titles = [
-            "Cyber Security Enthusiast",
             "Software Developer",
             "Python Learner",
             "Tech Enthusiast"
